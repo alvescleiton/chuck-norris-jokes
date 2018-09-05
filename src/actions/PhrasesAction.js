@@ -1,5 +1,3 @@
-'use strict'
-
 const fixPhrase = (text) => {
     var newPhrase = text.replace(/&quot;/g, '"')
 

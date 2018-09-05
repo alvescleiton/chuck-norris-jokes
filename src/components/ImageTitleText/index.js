@@ -1,5 +1,3 @@
-import React from 'react'
-
 const _Texts = () => {
     const imageTitles = [
         "Tira o mouse de mim",
