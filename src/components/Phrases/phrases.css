@@ -1,0 +1,23 @@
+.chuck-norris-phrase {
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.chuck-norris-phrase__quot {
+    display: inline-block;
+}
+
+.chuck-norris-phrase__text {
+    display: inline-block;
+    font-style: italic;
+    line-height: 24px;
+    width: 100%;
+    max-width: 600px;
+}
+
+@media screen and (max-width: 767px) {
+    .chuck-norris-phrase__text {
+        font-size: 18px;
+    }
+}

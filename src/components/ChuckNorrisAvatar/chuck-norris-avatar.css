@@ -1,0 +1,21 @@
+.chuck-norris-avatar {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.chuck-norris-avatar__image {
+    border-radius: 50%;
+    max-width: 100%;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.3);
+}
+
+@media screen and (max-width: 768px) {
+    .chuck-norris-avatar {
+        padding: 0;
+        margin: 30px 0;
+    }
+
+    .chuck-norris-avatar__image {
+        max-width: 70%;
+    }
+}
