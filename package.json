@@ -5,6 +5,7 @@
     "author": "Cleiton Alves <webdev.cleiton@gmail.com>",
     "license": "MIT",
     "private": true,
+    "homepage" : "http://www.cleitonalves.com/chuck-norris-jokes",
     "dependencies": {
         "prop-types": "^15.6.2",
         "react": "^16.4.2",
