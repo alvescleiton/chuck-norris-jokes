@@ -9,7 +9,7 @@ export default class Routes extends Component {
         return (
             <Switch>
                 <Route path="/" exact component={ Home } />
-                <Route component={ Page404 } />
+                <Route path="/chuck-norris-jokes/" exact component={ Home } />
             </Switch>
         )
     }
