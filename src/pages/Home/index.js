@@ -6,8 +6,8 @@ import Loading from '../../components/Loading'
 import Button from '../../components/Button'
 
 export default class Home extends Component {
-    constructor() {
-        super()
+    constructor(props) {
+        super(props)
 
         this.state = {
             phrase: '',
@@ -24,16 +24,14 @@ export default class Home extends Component {
             loading: true
         })
 
-        setTimeout(() => {
-            const joke = getPhrase()
+        const joke = getPhrase()
 
-            joke.then((response) => {
-                this.setState({
-                    phrase: response,
-                    loading: false
-                })
+        joke.then((response) => {
+            this.setState({
+                phrase: response,
+                loading: false
             })
-        }, 1000)
+        })
     }
 
     render() {
@@ -49,7 +47,7 @@ export default class Home extends Component {
 
                         <Phrases phrase={ this.state.phrase } />
 
-                        <Button newJoke={ () => { this.newJoke() } } />
+                        <Button onClick={ this.newJoke } />
                     </div>
                 </div>
             </Fragment>
