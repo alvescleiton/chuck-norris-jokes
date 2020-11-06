@@ -6,7 +6,7 @@ const fixPhrase = (text) => {
 
 export const getPhrase = async () => {
     let data = await (
-        await fetch(`http://api.icndb.com/jokes/random`)
+        await fetch(`https://api.icndb.com/jokes/random`)
         .then((res) => res.json())
         .then((data) => fixPhrase(data.value.joke))
         .catch((err) => err)
