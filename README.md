@@ -2,4 +2,4 @@
 
 See some jokes about Chuck Norris and have fun !)
 
-http://www.cleitonalves.com/chuck-norris-jokes
+https://alvescleiton.github.io/chuck-norris-jokes
