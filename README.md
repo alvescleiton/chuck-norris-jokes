@@ -19,12 +19,12 @@ git clone https://github.com/alvescleiton/chuck-norris-jokes.git
 
 ```bash
 # install dependencies
-yarn
+npm install
 ```
 
 ```bash
 # run the project
-yarn dev
+npm run start
 ```
 
 ## Contribute
