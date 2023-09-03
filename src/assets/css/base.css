@@ -26,6 +26,7 @@ body:before {
 .container {
     width: calc(100% - 30px);
     max-width: 960px;
+    min-width: 320px;
     margin: 0 auto;
     padding: 20px 15px;
     box-sizing: border-box;
